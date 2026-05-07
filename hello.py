@@ -1,7 +1,6 @@
-"""
-functions and variables
-ask the user for their name and greet them
-"""
-name = input("What's your name? ")
+#Ask users their name
+name = input("What's your name? ").strip().title()
+
+
 #Say hello to the user
-print("Hello, " + name + "!")
+print(f"Hello, {name}!")
